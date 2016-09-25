@@ -10,8 +10,7 @@ Stark is a theme for [Jekyll](http://jekyllrb.com) based on [Poole](https://gith
 ## Author
 
 **Peter Gessler**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+- <https://github.com/gesslerpd>
 
 
 ## License

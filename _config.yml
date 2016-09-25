@@ -26,6 +26,16 @@ version:             1.0.0
 github:
   repo:              https://github.com/gesslerpd/stark
 
+social:
+  email: 
+  github: gesslerpd/stark
+  facebook: 
+  instagram: 
+  linkedin: 
+  rss: rss
+  twitter: 
+  stackoverflow: 
+
 # Gems
 gems:
   - jekyll-paginate

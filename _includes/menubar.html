@@ -5,3 +5,37 @@
         <small>{{ site.tagline }}</small>
     </h3>
 </div>
+<div class="spacer"></div>
+{% if site.social.email %}
+<div>
+    <a href="mailto:{{ site.social.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+</div>
+{% endif %} {% if site.social.facebook %}
+<div>
+    <a href="https://www.facebook.com/{{ site.social.facebook }}"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+</div>
+{% endif %} {% if site.social.github %}
+<div>
+    <a href="https://github.com/{{ site.social.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+</div>
+{% endif %} {% if site.social.instagram %}
+<div>
+    <a href="https://instagram.com/{{ site.social.instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</div>
+{% endif %} {% if site.social.linkedin %}
+<div>
+    <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+</div>
+{% endif %} {% if site.social.rss %}
+<div>
+    <a href="{{ site.baseurl }}/atom.xml"><i class="fa fa-rss" aria-hidden="true"></i></a>
+</div>
+{% endif %} {% if site.social.twitter %}
+<div>
+    <a href="https://www.twitter.com/{{ site.social.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+</div>
+{% endif %} {% if site.social.stackoverflow %}
+<div>
+    <a href="http://stackoverflow.com/{{ site.social.stackoverflow }}"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+</div>
+{% endif %}

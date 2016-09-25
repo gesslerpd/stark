@@ -1,0 +1,31 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Stark
+tagline:             Jekyll Theme
+url:                 
+paginate:            5
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Peter Gessler
+  url:               
+  email:             gessler.pd@gmail.com
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/gesslerpd/stark
+
+# Gems
+gems:
+  - jekyll-paginate

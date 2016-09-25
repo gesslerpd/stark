@@ -51,6 +51,19 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Inline code is available with the `<code>` element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.
 
+```javascript
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// > 8
+```
+
+or
+
 {% highlight js %}
 // Example can be run directly in your JavaScript console
 
@@ -117,6 +130,15 @@ Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliqua
 ### Tables
 
 Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Name|Upvotes|Downvotes
+-|:-:|-:
+Alice|10|11
+Bob|4|3
+Charlie|7|9
+Totals|21|23
+
+or
 
 <table>
   <thead>

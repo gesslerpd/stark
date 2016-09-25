@@ -4,7 +4,9 @@ title: Introduction
 ---
 
 
-Stark is the theme for [Jekyll](http://jekyllrb.com).
+Stark is a theme for [Jekyll](http://jekyllrb.com).
+
+![screenshot]({{ site.baseurl }}/public/assets/images/screenshot.png)
 
 This theme is built on Poole
 

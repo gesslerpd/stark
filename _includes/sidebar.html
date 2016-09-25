@@ -8,8 +8,7 @@
         About
       </a>
 </div>
-<hr>
-{% for post in site.posts %}
+<hr> {% for post in site.posts %}
 <div>
     <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}

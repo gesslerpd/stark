@@ -6,14 +6,13 @@ title: Introduction
 
 Stark is a theme for [Jekyll](http://jekyllrb.com).
 
-![screenshot]({{ site.baseurl }}/public/assets/images/screenshot.png)
-
-This theme is built on Poole
-
-Learn more and contribute on [GitHub]({{ site.github.repo }}).
-
 Made by @gesslerpd.
 
+![screenshot]({{ site.baseurl }}/public/assets/images/screenshot.png)
+
+This theme is built on Poole by @mdo.
+
+Learn more and contribute on [GitHub]({{ site.github.repo }}).
 
 ### Browser support
 

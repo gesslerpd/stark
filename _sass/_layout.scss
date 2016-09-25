@@ -36,22 +36,26 @@ footer {
   @extend .flex-item;
   @extend .flex-container;
   @extend .flex-row;
+  @extend .scroll-x;
   align-content: center;
   background: linear-gradient(100deg, $theme-color 0%, darken($theme-color,20%) 100%);
   // box-shadow: 0 0 20px $gray-2;
   z-index: 2;
   padding: 0.5rem;
+
   @media (min-width: $large-breakpoint) {
-    overflow-x: auto;
-    flex-direction: row;
+
   }
+
   &>div {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
+
   a {
     color: $gray-5;
   }
+
 }
 
 .spacer {
@@ -70,8 +74,10 @@ footer {
   @extend .flex-container;
   @extend .flex-column;
   @extend .scroll-y;
+
   background-color: lighten($theme-color,20%);  
   padding: 1rem;
+
   hr {
     border-color: darken($theme-color,20%)
   }
@@ -79,6 +85,7 @@ footer {
   a {
     color: darken($theme-color,40%)
   }
+
 }
 
 .toggle {
@@ -98,102 +105,8 @@ footer {
   @extend .flex-container;
   @extend .flex-column;
   @extend .scroll-y;
+
   padding: 1.5rem;
   box-shadow: 0 0 20px $gray-2;
   z-index: 1;
 }
-/*
-.navigation {
-    @extend .flex-item;
-    @extend .flex-container;
-    @extend .flex-column;
-    @media (min-width: $large-breakpoint) {
-        overflow-y: auto;
-        flex-direction: row;
-    }
-
-    background:linear-gradient(270deg, $purple 0%, darken($purple,30%) 100%);
-    &>div {
-        @extend .flex-item;
-        color: $white;
-        margin-left: 1rem;
-        transition: color 333ms ease-in-out;
-    }
-}
-
-.content {
-    @extend .flex-item-expand;
-    @extend .flex-container;
-    @extend .flex-row;
-    @extend .scroll-y;
-}
-
-
-
-.footer {
-    @extend .flex-item;
-    @extend .flex-container;
-    @extend .flex-row;
-    @extend .flex-end;
-    background-color: $blue;
-    color: #fff;
-    font-size: 0.65rem;
-    padding: 0.1rem;
-    &>div {
-        margin-right: 0.5rem;
-        transition: color 333ms ease-in-out;
-        &:hover {
-            color: $red;
-        }
-    }
-}
-
-.sidebar {
-    @extend .flex-item;
-    @extend .flex-column;
-    @extend .scroll-y;
-    background-color: #f6f9fa;  
-}
-
-.togglebar {
-    display: none;
-    width: 0;
-    transition: width 333ms ease-in-out;
-}
-
-.posts {
-    @extend .flex-item-expand;
-    @extend .flex-container;
-    @extend .flex-column;
-    @extend .scroll-y;
-
-    box-shadow: 0 0 20px $gray-2;
-    z-index: 1;
-
-    @media (min-width: $large-breakpoint) {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-}
-
-.post {
-    @extend .flex-container;
-    @extend .flex-column;
-    @extend .flex-item;
-    margin: 1rem;
-    padding: 1rem;
-}
-
-.toggle {
-    cursor: pointer;
-}
-
-#toggle {
-    display: none;
-}
-
-#toggle:checked ~ .togglebar {
-    @extend .flex-container;
-     width: 10rem;
-}
-*/

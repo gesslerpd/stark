@@ -6,7 +6,7 @@ title:               Stark
 tagline:             Jekyll Theme
 url:                 
 paginate:            5
-baseurl:             ""
+baseurl:             "/stark"
 
 # Assets
 #

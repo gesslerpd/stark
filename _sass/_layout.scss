@@ -16,14 +16,13 @@ footer {
 */
 
 ::-webkit-scrollbar {
-    width: 1px;
-    height: 1px;
-    background: transparent;  /* optional: just make scrollbar invisible */
-    // background: rgba($scroll-color, 0.1);
+  width: 1px;
+  height: 1px;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba($black, 0.4);
+  background: rgba($black, 0.4);
 }
 
 .site {
@@ -50,6 +49,13 @@ footer {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
+  a {
+    color: $gray-5;
+  }
+}
+
+.spacer {
+  @extend .flex-item-expand;
 }
 
 .main {

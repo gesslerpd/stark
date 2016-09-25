@@ -2,6 +2,8 @@
 
 Stark is a theme for [Jekyll](http://jekyllrb.com) based on [Poole](https://github.com/poole/poole)
 
+[Demo](https://gesslerpd.github.io/stark)
+
 ## Contents
 
 - [Author](#author)

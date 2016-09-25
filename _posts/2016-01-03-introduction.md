@@ -12,6 +12,8 @@ This theme is built on Poole
 
 Learn more and contribute on [GitHub]({{ site.github.repo }}).
 
+Made by @gesslerpd.
+
 
 ### Browser support
 

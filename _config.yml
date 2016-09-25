@@ -39,3 +39,4 @@ social:
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-mentions
